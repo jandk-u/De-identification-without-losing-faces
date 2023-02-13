@@ -1,0 +1,38 @@
+Determining if the function cblas_ddot exists failed with the following output:
+Change Dir: /home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b6ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b6ae.dir/build.make CMakeFiles/cmTC_8b6ae.dir/build
+gmake[1]: Entering directory '/home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b6ae.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot -fPIE -o CMakeFiles/cmTC_8b6ae.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8b6ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b6ae.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cblas_ddot -rdynamic CMakeFiles/cmTC_8b6ae.dir/CheckFunctionExists.c.o -o cmTC_8b6ae 
+/usr/bin/ld: CMakeFiles/cmTC_8b6ae.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cblas_ddot'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_8b6ae.dir/build.make:99: cmTC_8b6ae] Error 1
+gmake[1]: Leaving directory '/home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8b6ae/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_59edc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_59edc.dir/build.make CMakeFiles/cmTC_59edc.dir/build
+gmake[1]: Entering directory '/home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59edc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fPIE -o CMakeFiles/cmTC_59edc.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_59edc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59edc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_59edc.dir/CheckFunctionExists.c.o -o cmTC_59edc 
+/usr/bin/ld: CMakeFiles/cmTC_59edc.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_59edc.dir/build.make:99: cmTC_59edc] Error 1
+gmake[1]: Leaving directory '/home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_59edc/fast] Error 2
+
+
+

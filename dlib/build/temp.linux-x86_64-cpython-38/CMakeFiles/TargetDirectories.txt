@@ -1,0 +1,8 @@
+/home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/CMakeFiles/_dlib_pybind11.dir
+/home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/CMakeFiles/edit_cache.dir
+/home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/CMakeFiles/rebuild_cache.dir
+/home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/pybind11_build/CMakeFiles/edit_cache.dir
+/home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/pybind11_build/CMakeFiles/rebuild_cache.dir
+/home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/dlib_build/CMakeFiles/dlib.dir
+/home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/dlib_build/CMakeFiles/edit_cache.dir
+/home/j/Learn/AI/FATM/dlib/build/temp.linux-x86_64-cpython-38/dlib_build/CMakeFiles/rebuild_cache.dir
